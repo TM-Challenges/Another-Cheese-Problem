@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "backups": [
+    {
+      "name": "Another Cheese Problem",
+      "message": {
+        "embeds": [
+          {
+            "title": "Another Cheese Problem",
+            "description": "After a long day of being a goat farmer, Tudor finally returns to an old hobby of his - baking cheese.\n\nTudor's recipe requires N operations to be performed. The operations happen to form a directed tree, where operation ai may depend on some other operations to be performed first. Operation 1 is guaranteed to be the last operation to perform and there will be no cyclic dependencies.\n\nEach operation will generate some intermediate result in the process of baking cheese that needs to be stored in a bowl. When an operation that depends on others to be done first is to be performed, Tudor will take all of the bowls with those intermediate results, grab a new bowl, and mix the intermediate results in the new bowl. After that, the other bowls may be cleaned and reused in later operations.\n\nCompute the minimum number of bowls Tudor needs to bake cheese.",
+            "color": 65449,
+            "fields": [
+              {
+                "name": "Input Specification",
+                "value": "The first line contains a single positive integer, N.\n\nEach of the next N−1 lines contain the integers a2 through aN in order, one per line. Operation ai depends directly on operation i to be completed first."
+              },
+              {
+                "name": "Output Specification",
+                "value": "Output the minimum number of bowls that Tudor needs."
+              },
+              {
+                "name": "Sample Input",
+                "value": "5\n1\n1\n2\n2",
+                "inline": true
+              },
+              {
+                "name": "Sample Output",
+                "value": "3",
+                "inline": true
+              },
+              {
+                "name": "__How to Submit__",
+                "value": "There are two steps to submit your code for this challenge (Name: **Another Cheese Problem**):\n1. Go to <#743121731480191088> and create a ticket by reacting to the :envelope_with_arrow:! Once you have reacted to the ticket bot, your ticket will be created on top of all the channels.\n2. Type your name, your PayPal email, and the code (notepad file if possible).\n\nThis challenges ends in 1 hour, starting from when this post occurs. _"
+              }
+            ],
+            "author": {
+              "name": "Massey Game Jam Developer Challenges",
+              "icon_url": "https://cdn.discordapp.com/attachments/742778030220640318/744606293482012712/ezgif-7-ce9239e319a0.gif"
+            },
+            "footer": {
+              "text": "Tarj Mecwan",
+              "icon_url": "https://cdn.discordapp.com/attachments/743635440447520878/767558419321192508/a_5abff6ac9d7c26f562030a50c1f82a3f.gif"
+            },
+            "timestamp": "2020-10-31T23:04:00.000Z"
+          }
+        ]
+      }
+    }
+  ]
+}
